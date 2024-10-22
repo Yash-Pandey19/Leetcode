@@ -1,4 +1,5 @@
 public class isanagram {
+    // letters same ho but aage peeche ho like cap and apc are anagrams.
     public static boolean isAnagram(String s , String t){
         if(s.length()!=t.length()){
             return false;
